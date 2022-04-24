@@ -1,6 +1,12 @@
 # Arte Em Plástico
 ![Arte em Plástico](documentation/visual-identity/banner.png)
 
+## Sumário
+- [Figma](#Projeto-no-Figma)
+- [Requisitos do Sistema](#requisitos-do-sistema)
+- [Descrição do Projeto](#descrição-do-projeto)
+- [Diagrama de Navegação](#diagrama-de-navegação)
+- [Telas](#telas)
 
 ## Participantes
 <a href="https://github.com/DioPedro"><img src="https://avatars.githubusercontent.com/u/61663172?v=4" title="dio" width="80" height="80"></a>
@@ -22,10 +28,10 @@ Milena Corrêa da Silva - **11795401**
 
 ### Descrição Geral 
 * O sistema trabalha com a venda de discos de vinis importados e nacionais.
-* O sistema possui dois tipos de usuários: Clientes e Admnistradores. 
+* O sistema possui dois tipos de usuários: Clientes e Admnistradores.
     * Os admnistradores são aqueles responsáveis por gerenciar clientes, produtos e outros admnistradores.
     * Os clientes são as pessoas que compraram os discos.
-    * A aplicação já vem com uma conta padrão de admnistrador com ``` login: admin; senha: admin```.
+    * A aplicação já vem com uma conta padrão de administrador com ``` login: admin; senha: admin```.
 * O sistema utiliza a lógica tradicional de "carrinhos" para realizar as vendas.
     * O usuário logado pode adicionar/remover itens do carrinho.
     * A compra pode ser concluída após o cliente confirmar/adicionar o endereço de entrega e o método de pagamento (cartão, boleto ou pix).
