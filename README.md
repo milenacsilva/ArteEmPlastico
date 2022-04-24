@@ -2,11 +2,18 @@
 ![Arte em Plástico](documentation/visual-identity/banner.png)
 
 ## Sumário
-- [Figma](#Projeto-no-Figma)
-- [Requisitos do Sistema](#requisitos-do-sistema)
-- [Descrição do Projeto](#descrição-do-projeto)
-- [Diagrama de Navegação](#diagrama-de-navegação)
-- [Telas](#telas)
+[Participantes](#participantes)\
+[Figma](#projeto-no-figma)\
+[Requisitos do Sistema](#requisitos-do-sistema)\
+[Descrição do Projeto](#descrição-do-projeto)\
+[Comentários Sobre o código](#comentários-sobre-o-código)\
+[Testes Automatizados](#testes-automatizados)\
+[Resultados dos Testes](#resultados-dos-testes)\
+[Executando o código](#executando-o-código)\
+[Problemas](#problemas)\
+[Comentários](#comentários)
+
+
 
 ## Participantes
 <a href="https://github.com/DioPedro"><img src="https://avatars.githubusercontent.com/u/61663172?v=4" title="dio" width="80" height="80"></a>
@@ -18,14 +25,11 @@ Marco Antônio Ribeiro de Toledo - **11796419**\
 Milena Corrêa da Silva - **11795401**
 
 ## Projeto no Figma
-
 ### [Protótipo com Navegação](https://www.figma.com/proto/RAqfw8Wfo1lq22mlEtHWMf/Trabalho-Web?node-id=0%3A1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=57%3A428&show-proto-sidebar=1)
 
 ### [MockUp das Páginas](https://www.figma.com/file/RAqfw8Wfo1lq22mlEtHWMf/Trabalho-Web?node-id=0%3A1)
 
-
 ## Requisitos do sistema
-
 ### Descrição Geral 
 * O sistema trabalha com a venda de discos de vinis importados e nacionais.
 * O sistema possui dois tipos de usuários: Clientes e Admnistradores.
@@ -72,33 +76,38 @@ Para garantir uma boa experiência de usuário, tentamos utilizar os princípios
 
 ### Diagrama de Navegação
 Para uma melhor expêriencia de usuário, decidimos separar as páginas de administrador das demais. Assim, o admin consegue acessa-las pelo link `localhost:8080/admin` sem ter âncora com as páginas principais, ou seja, sem que essa página apareça para usuários comuns (visitantes e clientes). 
-
-#### /home
-![Home-Sitemap](documentation/sitemap/home-sitemap.svg)
-
-#### /admin
-![Admin-Sitemap](documentation/sitemap/admin-sitemap.svg)
+![Home-Sitemap](documentation/sitemap/home-sitemap.png)
+![Admin-Sitemap](documentation/sitemap/admin-sitemap.png)
  
-
-## Telas 
-### Início
+### Telas
+#### Início
 ![Inicio](documentation/screenshots/Inicio.png)
 
-### Listagem de Produtos
+#### Listagem de Produtos
 ![Produtos](documentation/screenshots/Produtos.png)
 ![Produtos Filtro](documentation/screenshots/Produtos-Filtro.png)
 
-### Carrinho
+#### Carrinho
 ![Carrinho](documentation/screenshots/Carrinho.png)
 
+## Comentários sobre o código
+*None*
+
 ## Testes Automatizados
+*None*
 
-### Resultados
+## Resultados dos Testes
+*None*
 
 
-## Build
+## Executando o código
+*None*
+
 
 ## Problemas
+*None*
+
 
 ## Comentários
+*None*
 
