@@ -58,6 +58,12 @@ Milena Corrêa da Silva - **11795401**
 ### Informações a serem salvas no servidor
 * Os registros de dados dos clientes, administradores, produtos e cupons.
 
+### Estética
+Para garantir uma boa experiência de usuário, tentamos utilizar os princípios definidos pelo [Material](https://material.io/design/introduction#principles).
+
+##### Paleta de Cores
+![Color-Scheme](documentation/visual-identity/color-scheme.png)
+
 ### Diagrama de Navegação
 Para uma melhor expêriencia de usuário, decidimos separar as páginas de administrador das demais. Assim, o admin consegue acessa-las pelo link `localhost:8080/admin` sem ter âncora com as páginas principais, ou seja, sem que essa página apareça para usuários comuns (visitantes e clientes). 
 
@@ -70,18 +76,21 @@ Para uma melhor expêriencia de usuário, decidimos separar as páginas de admin
 
 ## Telas 
 ### Início
+![Inicio](documentation/screenshots/Inicio.png)
 
 ### Listagem de Produtos
+![Produtos](documentation/screenshots/Produtos.png)
+![Produtos Filtro](documentation/screenshots/Produtos-Filtro.png)
 
 ### Carrinho
-    
+![Carrinho](documentation/screenshots/Carrinho.png)
+
 ## Testes Automatizados
 
 ### Resultados
 
-## Build
 
-## Comentários Sobre o Código
+## Build
 
 ## Problemas
 
