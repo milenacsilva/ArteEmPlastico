@@ -13,9 +13,9 @@ Milena Corrêa da Silva - **11795401**
 
 ## Projeto no Figma
 
-### [Protótipo](https://www.figma.com/proto/RAqfw8Wfo1lq22mlEtHWMf/Trabalho-Web?node-id=0%3A1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=57%3A428&show-proto-sidebar=1)
+### [Protótipo com Navegação](https://www.figma.com/proto/RAqfw8Wfo1lq22mlEtHWMf/Trabalho-Web?node-id=0%3A1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=57%3A428&show-proto-sidebar=1)
 
-### [MockUp](https://www.figma.com/file/RAqfw8Wfo1lq22mlEtHWMf/Trabalho-Web?node-id=0%3A1)
+### [MockUp das Páginas](https://www.figma.com/file/RAqfw8Wfo1lq22mlEtHWMf/Trabalho-Web?node-id=0%3A1)
 
 
 ## Requisitos do sistema
@@ -73,7 +73,17 @@ Para uma melhor expêriencia de usuário, decidimos separar as páginas de admin
 
 ### Listagem de Produtos
 
-### Página do Produto
-
 ### Carrinho
+    
+## Testes Automatizados
+
+### Resultados
+
+## Build
+
+## Comentários Sobre o Código
+
+## Problemas
+
+## Comentários
 
