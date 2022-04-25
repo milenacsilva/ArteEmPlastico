@@ -79,7 +79,7 @@ Para uma melhor expêriencia de usuário, decidimos separar as páginas de admin
 ![Home-Sitemap](documentation/sitemap/home-sitemap.png)
 ![Admin-Sitemap](documentation/sitemap/admin-sitemap.png)
  
-### Telas
+### Screenshots - Telas Implementadas
 #### Início
 ![Inicio](documentation/screenshots/Inicio.png)
 
