@@ -1,3 +1,4 @@
+
 .productsContainer {
     padding: 5px;
     position: relative;
@@ -70,15 +71,92 @@
     box-sizing: border-box;
 }
 
-.productCard  .cartButton {
-    width: 1.5em;
-    height: 1.5em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 100%;
+.productCard svg {
+    width: 1.2em !important;
+    height: 1.2em;
+    fill: var(--white);
 }
 
 .interact > * {
     display: block;
+}
+
+.filterPanel {
+    padding: 1em;
+}
+
+.panel {
+    position: relative;
+    padding: 15px;
+    background-color: var(--primary-light);
+    color: var(--white);
+    width: max-content;
+    transition: 0.4s;
+    box-shadow: 5px 5px 10px var(--primary-dark);
+}
+
+.hidden {
+    width: 0px !important;
+    height: 0px !important;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.panel > h4 {
+    margin: 0;
+}
+
+.panel input[type="text"] {
+    background-color: var(--white);
+    border-radius: 1em;
+    padding: 5px;
+    width: 100%;
+    min-width: 200px;
+}
+
+.panel > button {
+    width: 100%;
+}
+
+.closePanel {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 100%;
+    display: block;
+    font-size: 1em;
+    height: 1.5em;
+    width: 1.5em !important;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.genreInput {
+    width: 100%;
+    width: max-content;
+}
+
+.filterButton {
+    transition: 0.4s;
+    width: 100%;
+}
+
+@media screen and (max-width: 850px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+.productList {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    flex-basis: 0;
+    justify-content: center;
+    margin-top: 10px;
 }
