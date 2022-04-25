@@ -1,0 +1,84 @@
+.productsContainer {
+    padding: 5px;
+    position: relative;
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-template-rows: auto;
+}
+
+@media screen and (max-width: 850px) {
+    .productsContainer {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+.productList {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   
+   flex-basis: 0;
+   justify-content: center;
+   margin-top: 10px;
+}
+
+.productCard {
+    flex: 200px 0 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 5px;
+    margin: 20px;
+
+    background-color: var(--primary-light);
+    box-shadow: 5px 5px 10px var(--primary-dark);
+
+    color: var(--white);
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.productCard:hover {
+    transform: scale(1.02);
+    transform-origin: center center;
+}
+
+.productCard .description {
+    width: 100%;
+    text-align: center;
+}
+
+.productCard img, h3, p {
+    max-width: 100%;
+}
+
+.productCard  h3, p {
+    word-wrap: break-word;
+    margin: 5px 0px;
+}
+
+.productCard  .interact {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.productCard  .cartButton {
+    width: 1.5em;
+    height: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.interact > * {
+    display: block;
+}
