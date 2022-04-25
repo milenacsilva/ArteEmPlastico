@@ -59,7 +59,7 @@
     margin: 5px 0px;
 }
 
-.productCard  .interact {
+.productCard .interact {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
