@@ -1,0 +1,10 @@
+
+.banner {
+    width: 100%;
+}
+
+.albumList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
