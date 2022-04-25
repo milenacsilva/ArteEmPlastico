@@ -40,6 +40,12 @@
     color: var(--white);
 }
 
+#topBar .searchBar svg {
+    fill: var(--white);
+    width: 1em;
+    height: 1em;
+}
+
 #topBar .topbarLogo {
     width: 100%;
     max-width: 6rem;
