@@ -1,0 +1,121 @@
+.cartContainer {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    min-width: 500px;
+}
+
+.cart {
+    display: grid;
+    grid-template-columns: auto minmax(300px, 20%);
+    column-gap: 50px;
+}
+
+@media screen and (max-width: 850px) {
+    .cart {
+        grid-template-columns: 1fr;
+    }
+}
+
+.cartProducts { 
+    display: grid;
+    grid-template-columns: repeat(2, max-content) auto repeat(3, max-content);
+    row-gap: 10px;
+    align-items: center;
+    text-align: justify;
+}
+
+.cartProducts > h3 {
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+    margin-right: 16px;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.cartTotals {
+    color: var(--white);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: min-content;
+    row-gap: 20px;
+    text-align: justify;
+    column-gap: 5px;
+}
+
+.cartTotals h3 {
+    text-transform: uppercase;
+}
+
+.totalRow {
+    display: contents;
+}
+
+.cartStatus {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cartStatus > h2 {
+    color: var(--black);
+}
+
+.cartActive {
+    color: var(--white) !important;
+}
+
+button {
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+
+img {
+    width: 100%;
+    max-width: 150px;
+    margin: 5px;
+    box-sizing: border-box;
+ }
+
+.columnContainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    background-color: var(--primary-light);
+    box-sizing: border-box;
+ }
+
+.imgContainer, .trashContainer {
+    text-align: center;
+}
+
+.trashIcon {
+    font-size: 1.1em;
+    margin: 0 10px;
+    display: block;
+    width: 100%;
+}
+
+.description {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+}
+
+.num {
+    width: 100%;
+    text-align: center;
+}
+
+.cartCard {
+    background-color: var(--primary-light);
+    color: var(--white);
+}

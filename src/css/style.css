@@ -1,0 +1,123 @@
+:root {
+    --white: #fcfcfc;
+    --black: #0f0f0f;
+    --bg: #39454B;
+
+    --primary: #263238;
+    --primary-light: #4f5b62;
+    --primary-dark: #000a12;
+
+    --secondary: #bf360c;
+    --secondary-light: #f9683a;
+    --secondary-dark: #870000;
+}
+
+body {
+   padding: 0;
+   margin: 0;
+}
+
+#app {
+    position: relative;
+    background-color: var(--bg);
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+}
+
+#app * {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+input {
+    font-weight: 400;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    border: 0;
+    background-color: var(--bg);
+    font-style: italic;
+    padding: 5px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+button {
+    text-transform: uppercase;
+    border: 0;
+    background: var(--secondary-dark);
+    color: currentColor;
+    padding: 10px;
+    border-radius: 2rem;
+    font-weight: bold;
+    transition: 0.4s;
+    cursor: pointer;
+    width: max-content;
+    color: var(--white);
+}
+
+button:hover {
+    transform: scale(1.05);
+    transform-origin: center center;
+}
+
+button:hover, button.active {
+    background-color: var(--secondary-light);
+}
+
+.clickableIcon {
+    transition: 0.4s !important;
+    cursor: pointer;
+}
+
+.clickableIcon:hover {
+    transform: scale(1.1) !important;
+    transform-origin: center center !important;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+#topBar {
+    width: 100%;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: var(--primary);
+    padding: 5px;
+    transition: 0.4s;
+    transition-timing-function: ease-in-out;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px var(--primary-dark);
+}
+
+#contentWrapper {
+   padding-bottom: 7rem;
+}
+
+
+@media screen and (min-width: 850px) {
+    #contentWrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    background-color: var(--primary);
+    box-sizing: border-box;
+}
+
+.active {
+    background-color: var(--secondary-dark) !important;
+}

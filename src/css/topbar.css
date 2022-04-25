@@ -1,0 +1,122 @@
+#topBar .topRow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+#topBar .topRow > * {
+    margin: 0 auto;
+}
+
+#topBar .searchBar {
+    width: 30%;
+    height: 2rem;
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    background-color: var(--primary-light);
+    cursor: pointer;
+    border: 0;
+    border-radius: 2rem;
+    overflow: hidden;
+    color: var(--white);
+}
+
+#topBar .searchBar > input {
+    color: var(--white);
+    background-color: var(--primary-light);
+}
+
+#topBar .searchBar > label {
+    padding: 5px;
+    color: var(--white);
+}
+
+#topBar .topbarLogo {
+    width: 100%;
+    max-width: 6rem;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#topBar .topbarLogo:hover {
+    transform: scale(1.1);
+    transform-origin: center center;
+}
+
+#topBar .personal {
+    width: 30%;
+    max-width: 400px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+
+#topBar .personal > * {
+    width: 100%;
+}
+
+#topBar .personal * {
+    font-size: 1.1rem;
+}
+
+#topBar .personal button {
+    width: 100%;
+    background-color: var(--primary-light);
+    text-transform: none;
+    height: 2rem !important;
+    padding: 0;
+    font-size: 1.1rem;
+}
+
+#topBar .personal button:hover {
+    background-color: var(--primary-dark);
+}
+
+#topBar .topbarButton {
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    color: var(--white);
+    font-size: 1.1rem;
+}
+
+#topBar .personal > .topbarButton {
+    width: 100%;
+}
+
+#topBar .bottomRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#topBar .bottomRow >  .topbarButton {
+    margin: 0px 20px;
+    box-sizing: border-box;
+    transition: 0.4s;
+    background-color: transparent;
+}
+
+#topBar .bottomRow > .topbarButton:hover {
+    transform: scale(1.1);
+    transform-origin: center center;
+}
+
+#topBar input[type=text] {
+    text-align: center;
+}
+

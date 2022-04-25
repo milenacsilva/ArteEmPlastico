@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/topbar.css">
+    <link rel="stylesheet" href="../css/cart.css">
+    <title>Inicio</title>
+</head>
+<body>
+    <div id="app">
+        <div id="topBar">
+            <div class="topRow">
+                <div class="searchBar">
+                    <label for="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </label>
+                    <input v-model="search" type="text" name="search" placeholder="Pesquisar..." />
+                </div>
+                <img
+                    class="topbarLogo"
+                    src="../assets/Global/logo.png"
+                    alt="Logo" />
+                <div class="personal">
+                    <button>Entrar</button>
+                    <a href="cart.html">
+                        <button class="active">
+                            Carrinho
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="bottomRow">
+                <a href="index.html" class="topbarButton">
+                    Início
+                </a>
+                <a href="products.html" class="topbarButton">
+                    Produtos
+                </a>
+                <div class="topbarButton">
+                    Quem somos?
+                </div>
+                <div class="topbarButton">
+                    Contato
+                </div>
+            </div>
+        </div>
+        
+        <div id="contentWrapper">
+            <div class="cartContainer">
+                <div class="cartStatus">
+                    <h2 class="cartActive"> Carrinho de compras </h2>
+                    <h2> Envio e pagamento </h2>
+                    <h2> Finalizar pedido </h2>
+                </div>
+    
+                <div class="cart">
+                    <div class="cartProducts">
+                        <!-- Cart Header -->
+                        <!-- Fizemos dessa maneira pois depois com o framework cada CartCard Element irá virar um component separado e não atrapalá-ra a visualização do código -->
+                        <h3 style="grid-column: span 3;">Produto</h3>
+                        <h3>Preço</h3>
+                        <h3>Quantidade</h3>
+                        <h3>Total</h3>
+
+                        <!-- CartCard Element -->
+                        <div class="cartCard trashContainer columnContainer">
+                            <div class="containerShadow"></div>
+                            <i class="clickableIcon fa-solid fa-trash trashIcon"></i>
+                        </div>
+                        <div class="cartCard imgContainer columnContainer">
+                            <div class="containerShadow"></div>
+                            <img src="https://m.media-amazon.com/images/I/71dgsFggCZL._AC_SL1500_.jpg">
+                        </div>
+                        <div class="cartCard description columnContainer">
+                            <div class="containerShadow"></div>
+                            <h3>Now, Not Yet (2019) - halfalive</h3>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque doloribus sed expedita, adipisci aliquid minus voluptatibus dicta sapiente consequuntur eveniet cumque</p>
+                        </div>
+                        <div class="cartCard columnContainer">
+                            <div class="containerShadow"></div>
+                            <p class="num"> 90.0</p>
+                        </div>
+                        <div class="cartCard columnContainer">
+                            <div class="containerShadow"></div>
+                            <p class="num"> 2 </p>
+                        </div>
+                        <div class="cartCard columnContainer">
+                            <div class="containerShadow"></div>
+                            <p class="num"> 180.0 </p>
+                        </div>
+
+                        <!-- Next CartCard Element -->
+                        <div class="cartCard trashContainer columnContainer">
+                            <div class="containerShadow"></div>
+                            <i class="clickableIcon fa-solid fa-trash trashIcon"></i>
+                        </div>
+                        <div class="cartCard imgContainer columnContainer">
+                            <div class="containerShadow"></div>
+                            <img src="https://m.media-amazon.com/images/I/71dgsFggCZL._AC_SL1500_.jpg">
+                        </div>
+                        <div class="cartCard description columnContainer">
+                            <div class="containerShadow"></div>
+                            <h3>Now, Not Yet (2019) - halfalive</h3>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque doloribus sed expedita, adipisci aliquid minus voluptatibus dicta sapiente consequuntur eveniet cumque</p>
+                        </div>
+                        <div class="cartCard columnContainer">
+                            <div class="containerShadow"></div>
+                            <p class="num"> 90.0</p>
+                        </div>
+                        <div class="cartCard columnContainer">
+                            <div class="containerShadow"></div>
+                            <p class="num"> 2 </p>
+                        </div>
+                        <div class="cartCard columnContainer">
+                            <div class="containerShadow"></div>
+                            <p class="num"> 180.0 </p>
+                        </div>
+                    </div>
+    
+                    <div class="cartTotals">
+                        <h3 style="grid-column: span 2">Valores totais</h3>
+                    
+                        <div class="totalRow">
+                            <span>Subtotal:</span>
+                            <span> R$0.0  </span>
+                        </div>
+                    
+                        <div class="totalRow">
+                            <span>Entrega:</span>
+                            <span> R$ 0.0 </span>
+                        </div>
+
+                        <div class="totalRow">
+                            <span>Total</span>
+                            <span> 0.0 </span>
+                        </div>
+
+                        <button type="button" style="grid-column: span 2"> Concluir Compra </button>
+                    </div>
+                </div>
+            
+                <br />
+                <a href="products.html"><button class="continueShopping" type="button"> Continuar Comprando </button></a>
+            </div>
+        </div>
+        <div id="footer">  
+            <div class="trademark">
+                Diógenes Silva, Marco Toledo, Milena Correa @ USP-ICMC 2022
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

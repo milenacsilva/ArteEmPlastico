@@ -1,0 +1,8 @@
+#footer .trademark {
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 0.9em;
+    color: var(--white);
+}

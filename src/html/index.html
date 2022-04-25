@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/topbar.css">
+    <title>Inicio</title>
+</head>
+<body>
+    <div id="app">
+        <div id="topBar">
+            <div class="topRow">
+                <div class="searchBar">
+                    <label for="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </label>
+                    <input v-model="search" type="text" name="search" placeholder="Pesquisar..." />
+                </div>
+                <img
+                    class="topbarLogo"
+                    src="../assets/Global/logo.png"
+                    alt="Logo" />
+                <div class="personal">
+                    <button>Entrar</button>
+                    <a href="cart.html">
+                        <button>
+                            Carrinho
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="bottomRow">
+                <a href="index.html" class="topbarButton">
+                    Início
+                </a>
+                <a href="products.html" class="topbarButton">
+                    Produtos
+                </a>
+                <div class="topbarButton">
+                    Quem somos?
+                </div>
+                <div class="topbarButton">
+                    Contato
+                </div>
+            </div>
+        </div>
+        
+        <div id="contentWrapper">
+            
+        </div>
+        
+        <div id="footer">  
+            <div class="trademark">
+                Diógenes Silva, Marco Toledo, Milena Correa @ USP-ICMC 2022
+            </div>
+        </div>
+    </div>
+</body>
+</html>
