@@ -61,14 +61,22 @@
 }
 
 .productCard .interact {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: min-content 1fr;
     width: 100%;
-    padding: 0 15px;
+    padding: 0 5px;
     box-sizing: border-box;
+    align-items: center;
+    text-align: right;
+}
+
+.interact > div {
+    width: 100%;
+    text-align: right;
+}
+
+.interact button {
+    float: right;
 }
 
 .productCard svg {
